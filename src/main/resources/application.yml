@@ -1,0 +1,10 @@
+#数据
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///student?serverTimezone=UTC
+    username: root
+    password: 123
+
+mybatis:
+  type-aliases-package: com.cssl.pojo
